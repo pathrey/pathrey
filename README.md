@@ -63,7 +63,7 @@ I'm a passionate developer who loves building innovative solutions and exploring
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=pathrey&theme=radical&hide_border=true&include_all_commits=false&count_private=false" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pathrey&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.vercel.app/?user=pathrey&theme=radical&hide_border=true" alt="GitHub Streak" />
   
 </div>
 
