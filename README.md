@@ -1,8 +1,17 @@
 # Hey there! 👋 I'm Tushar Pathak
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Data+Science+Enthusiast;Problem+Solver;Always+Learning" alt="Typing SVG" />
-</div>
+
+<h2 align="center" style="color:#36BCF7;">
+  Full Stack Developer · Data Science Enthusiast · Problem Solver · Always Learning
+</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Role-Full%20Stack%20Developer-36BCF7?style=flat-round" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Science%20Enthusiast-36BCF7?style=flat-round" />
+  <img src="https://img.shields.io/badge/Skill-Problem%20Solver-36BCF7?style=flat-round" />
+  <img src="https://img.shields.io/badge/Mindset-Always%20Learning-36BCF7?style=flat-round" />
+</p>
+
+
 
 ## 🚀 About Me
 
@@ -85,5 +94,5 @@ I'm a passionate developer who loves building innovative solutions and exploring
 </div>
 
 <div align="center">
-  <em>⭐️ From Tushar Pahtak(https://github.com/pathrey</em>
+  <em>⭐️ From Tushar Pahtak(https://github.com/pathrey</em>)
 </div>
