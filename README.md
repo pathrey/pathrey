@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <!-- Animated Header Banner -->
@@ -6,14 +5,13 @@
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=700&lines=Building+Production-Grade+AI+Systems+%F0%9F%A4%96;RAG+Pipelines+%C2%B7+Agentic+AI+%C2%B7+MCP+Servers;LangChain+%C2%B7+LlamaIndex+%C2%B7+Vector+DBs;React+%C2%B7+Node.js+%C2%B7+FastAPI;Turning+complex+AI+into+reliable+products+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=700&lines=Building+Production-Grade+AI+Systems+%F0%9F%A4%96;RAG+Pipelines+%C2%B7+Agentic+AI+%C2%B7+MCP+Servers;LangChain+%C2%B7+LlamaIndex+%C2%B7+ChromaDB+%C2%B7+FAISS;React+%C2%B7+Node.js+%C2%B7+FastAPI;100%25+Open+Source+%C2%B7+Zero+Paid+APIs+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Profile Views + Social Badges -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=6366f1&style=flat-square" />
   <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://leetcode.com/yourusername"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" /></a>
@@ -33,18 +31,21 @@ class AIEngineer:
         self.role         = "AI Engineer & Full-Stack Developer"
         self.location     = "Remote 🌍"
         self.focus        = ["Production RAG Systems", "Agentic AI", "MCP Servers"]
+        self.philosophy   = "100% open-source · zero paid APIs · runs on any laptop"
         self.stack        = {
             "ai"       : ["LangChain", "LangGraph", "LlamaIndex", "RAG", "MCP"],
-            "vector_db": ["Pinecone", "ChromaDB", "FAISS", "Qdrant"],
-            "backend"  : ["Python", "FastAPI", "Node.js", "PostgreSQL", "Redis"],
+            "llm"      : ["Groq Free (Llama 3.1)", "Gemini Free", "HuggingFace"],
+            "vector_db": ["ChromaDB (local)", "FAISS (local)", "Qdrant (local)"],
+            "embed"    : ["sentence-transformers", "all-MiniLM-L6-v2", "BGE-small"],
+            "backend"  : ["Python", "FastAPI", "Node.js", "SQLite", "SQLAlchemy"],
             "frontend" : ["React", "Next.js", "TypeScript", "Tailwind CSS"],
             "data"     : ["Pandas", "NumPy", "scikit-learn", "Hugging Face"],
-            "devops"   : ["Docker", "Kubernetes", "GitHub Actions", "AWS"],
+            "devops"   : ["Docker", "GitHub Actions", "Vercel", "Render"],
         }
-        self.superpower   = "Building AI that actually works in production"
+        self.superpower   = "Building AI that runs on any machine — no GPU, no paid APIs"
         self.currently    = "🔭 Building MCP servers + multi-agent RAG pipelines"
-        self.learning     = "📖 GraphRAG · Self-RAG · LLM fine-tuning"
-        self.fun_fact     = "I can explain cosine similarity at 2am ☕"
+        self.learning     = "📖 GraphRAG · Self-RAG · LoRA fine-tuning on Colab"
+        self.fun_fact     = "My RAG pipeline runs on 8GB RAM and outperforms GPT-4 demos ☕"
 
     def hire_me(self):
         return "Let's build something intelligent together 🚀"
@@ -60,18 +61,17 @@ class AIEngineer:
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=for-the-badge&logo=llama&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=for-the-badge&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_Free_API-F55036?style=for-the-badge&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_Free-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-**🗄️ Vector Databases**
+**🗄️ Vector Databases & Embeddings**
 
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-F97316?style=for-the-badge&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB_Local-F97316?style=for-the-badge&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS_Local-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![sentence-transformers](https://img.shields.io/badge/sentence--transformers-FF6B35?style=for-the-badge&logoColor=white)
+![FlashRank](https://img.shields.io/badge/FlashRank_Local-22c55e?style=for-the-badge&logoColor=white)
 
 **💻 Full-Stack**
 
@@ -87,16 +87,14 @@ class AIEngineer:
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-**⚙️ DevOps & Cloud**
+**⚙️ DevOps & Free Hosting**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel_Free-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render_Free-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
 </div>
 
@@ -104,36 +102,44 @@ class AIEngineer:
 
 ## 🚀 Featured Projects
 
-### 🔷 Project 1 — DocMind AI · Enterprise RAG Assistant
+### 🔷 Project 1 — DocMind AI · Local RAG Assistant
 
 <table>
 <tr>
 <td width="60%">
 
-> **Production-grade multi-document RAG system** built for enterprise knowledge management. Supports 100K+ pages with sub-second retrieval, HyDE query expansion, cross-encoder reranking, and full RAGAS evaluation pipeline.
+> **Production-grade RAG system that runs 100% free** — no paid APIs, no cloud costs, no GPU. Answers questions over your documents using open-source LLMs via Groq's free tier and fully local embeddings + vector search.
 
 **⚡ Key Highlights**
-- 🧩 **Advanced RAG** — HyDE, Corrective RAG, RAPTOR indexing
-- 🔍 **Hybrid Search** — dense (Pinecone) + sparse (BM25) with Cohere reranking
-- 📊 **Evaluation** — RAGAS automated scoring; faithfulness > 0.87
-- 🔄 **LangGraph** orchestration — stateful, multi-turn conversations
-- ⚡ **Semantic caching** with Redis — 60% latency reduction
-- 🖥️ **React** streaming UI with SSE real-time responses
-- 🐳 Fully **Dockerized** — CI/CD via GitHub Actions
+- 🧩 **Advanced RAG** — HyDE query expansion + Parent-Child chunking
+- 🔍 **Local Hybrid Search** — FAISS dense + BM25 sparse retrieval
+- 🏆 **Free Reranking** — FlashRank local cross-encoder (no API key)
+- 🤖 **LLM** — Groq free tier (Llama 3.1 70B, fastest free inference)
+- 🧠 **Embeddings** — `all-MiniLM-L6-v2` local (~80 MB, ~200 MB RAM)
+- 🗄️ **Vector DB** — ChromaDB persistent local storage (zero cost)
+- 💾 **Memory** — SQLite multi-turn conversation history
+- 🖥️ **React** streaming UI — deployed free on Vercel
+- ⚙️ **FastAPI** backend — deployed free on Render
 
 </td>
 <td width="40%" align="center">
 
-**Tech Stack**
+**100% Free Stack**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_Free-F55036?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB_Local-F97316?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS_Local-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![FlashRank](https://img.shields.io/badge/FlashRank-22c55e?style=flat-square)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+<br/>
+
+![Cost](https://img.shields.io/badge/Cost-$0%2Fmonth-22c55e?style=for-the-badge)
+![RAM](https://img.shields.io/badge/RAM-~700_MB-6366f1?style=for-the-badge)
+![CPU](https://img.shields.io/badge/CPU-i5_OK-f59e0b?style=for-the-badge)
 
 <br/>
 
@@ -145,47 +151,61 @@ class AIEngineer:
 </table>
 
 ```
-📁 Architecture
-├── ingestion/        → PDF, DOCX, URL loaders + semantic chunking
-├── indexing/         → Pinecone upsert + BM25 sparse index
-├── retrieval/        → HyDE expansion → ANN search → Cohere rerank
-├── generation/       → LangGraph stateful chain → GPT-4o / Claude
-├── evaluation/       → RAGAS automated scoring per query
-├── api/              → FastAPI async + SSE streaming
-└── frontend/         → React + Tailwind streaming chat UI
+📁 Architecture  —  i5 CPU · 8GB RAM · $0/month
+│
+├── ingestion/        → PyMuPDF, python-docx, BeautifulSoup (all free/local)
+├── chunking/         → RecursiveTextSplitter + Parent-Child nodes
+├── embedding/        → sentence-transformers all-MiniLM-L6-v2 (runs locally)
+├── indexing/         → ChromaDB persistent local + FAISS IVFFlat (local)
+├── retrieval/        → HyDE expansion → hybrid search → FlashRank rerank
+├── generation/       → LangGraph → Groq Llama 3.1 70B (free API, 30 req/min)
+├── memory/           → SQLite conversation store (built-in Python)
+├── api/              → FastAPI async + SSE streaming → Render (free tier)
+└── frontend/         → React + Tailwind streaming chat UI → Vercel (free)
+
+✅ Free services: Groq API · Vercel · Render · GitHub Actions
+✅ Local (no account): ChromaDB · FAISS · sentence-transformers · FlashRank · SQLite
 ```
 
 ---
 
-### 🔶 Project 2 — AgentHub · Universal MCP Server Platform
+### 🔶 Project 2 — AgentHub · Local MCP Server for AI Agents
 
 <table>
 <tr>
 <td width="60%">
 
-> **A production-ready MCP (Model Context Protocol) server** that exposes 15+ tools to any MCP-compatible LLM client (Claude Desktop, Cursor, Cline). Enables Claude to read/write databases, query live APIs, execute Python, search the web, and manage files — all through a single standardized server.
+> **A fully local MCP (Model Context Protocol) server** that gives any MCP-compatible client (Claude Desktop, Cursor, Cline) access to 8 real tools — web search, SQLite queries, file ops, CSV analysis, code execution and more. Runs entirely on your machine, completely free.
 
 **⚡ Key Highlights**
-- 🔌 **MCP Server** — 15+ tools: SQL queries, web search, file ops, code execution
-- 🤖 **Multi-Agent Backend** — LangGraph supervisor + specialized sub-agents
-- 🛡️ **Sandboxed Execution** — E2B sandbox for safe code running
-- 📡 **OAuth 2.0** for secure user-authorized tool access
-- 🧠 **Persistent Memory** — Mem0 episodic + semantic memory layers
-- 📊 **Observability** — LangSmith traces + Langfuse dashboards
-- ⚡ **Node.js MCP SDK** + Python FastMCP dual implementation
+- 🔌 **MCP Server** — 8 tools via FastMCP (local stdio, no cloud needed)
+- 🤖 **LangGraph Agents** — supervisor + specialized tool-use sub-agents
+- 🔍 **Free Web Search** — DuckDuckGo Python lib (no API key, ever)
+- 🗄️ **SQLite Tools** — natural language → SQL on local databases
+- 🐍 **Safe Code Execution** — restricted subprocess sandbox (local)
+- 📊 **Data Analysis** — Pandas + NumPy CSV analysis as an MCP tool
+- 🧠 **Persistent Memory** — SQLite episodic + JSON semantic memory
+- 📡 **Free Observability** — Langfuse free cloud tier (50K events/month)
+- 🖥️ **React Dashboard** — visualize agent runs and tool calls live
 
 </td>
 <td width="40%" align="center">
 
-**Tech Stack**
+**100% Free Stack**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastMCP](https://img.shields.io/badge/FastMCP-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![FastMCP](https://img.shields.io/badge/FastMCP_Local-CC785C?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq_Free-F55036?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js_MCP-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite_Local-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse_Free-6366f1?style=flat-square)
+
+<br/>
+
+![Cost](https://img.shields.io/badge/Cost-$0%2Fmonth-22c55e?style=for-the-badge)
+![RAM](https://img.shields.io/badge/RAM-~500_MB-6366f1?style=for-the-badge)
+![CPU](https://img.shields.io/badge/CPU-i5_OK-f59e0b?style=for-the-badge)
 
 <br/>
 
@@ -197,18 +217,23 @@ class AIEngineer:
 </table>
 
 ```
-📁 MCP Tools Exposed
-├── 🗄️  database_query()    → Natural language → SQL → PostgreSQL
-├── 🔍  web_search()        → Tavily API real-time search
-├── 🐍  execute_python()    → E2B sandboxed code execution
-├── 📁  file_manager()      → Read/write/search local files
-├── 📧  send_email()        → Gmail OAuth-authorized sending
-├── 📊  analyze_csv()       → Pandas + NumPy data analysis
-├── 🗓️  calendar_tool()     → Google Calendar read/write
-└── 🧠  memory_recall()     → Mem0 episodic memory lookup
+📁 MCP Tools Exposed  —  i5 CPU · 8GB RAM · $0/month
+│
+├── 🔍  web_search()        → DuckDuckGo Python lib (zero API key)
+├── 🗄️  query_database()    → Natural language → SQLite (fully local)
+├── 📁  file_manager()      → Read / write / list local files
+├── 📊  analyze_csv()       → Pandas + NumPy data analysis tool
+├── 🐍  run_python()        → Restricted subprocess sandbox (local)
+├── 🧠  remember()          → SQLite episodic memory write
+├── 🔎  recall()            → JSON + SQLite semantic lookup
+└── 📋  summarize_doc()     → Local embedding + LangChain map-reduce
+
+✅ Free services: Groq API · Langfuse free tier · Vercel · GitHub Actions
+✅ Local (no account): FastMCP · SQLite · DuckDuckGo · subprocess sandbox
+✅ MCP Clients (all free): Claude Desktop · Cursor · Cline · Continue.dev · Zed
 ```
 
-> **💡 Hiring Signal:** This project demonstrates mastery of the Model Context Protocol — one of the rarest and most in-demand skills in AI engineering in 2025–26.
+> **💡 Hiring Signal:** MCP is Anthropic's open protocol from late 2024. Very few engineers know how to build servers for it. This project immediately differentiates you in AI engineering interviews.
 
 ---
 
@@ -253,33 +278,39 @@ class AIEngineer:
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | `Hash Map` `Linked List` | ✅ Solved |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | `Trie` `Backtracking` | ✅ Solved |
 
-> 🔄 *Auto-updates via [LeetCode Stats Card](https://github.com/JacobLinCool/LeetCode-Stats-Card) — replace `yourusername` with your LeetCode handle*
+> 🔄 *Replace `yourusername` with your LeetCode handle to auto-load your real stats*
 
 ---
 
-## 🏆 GitHub Trophies
+## 🎯 2025–26 Learning Roadmap
+
+```
+[██████████] ✅  RAG Pipelines — Basic to Advanced
+[██████████] ✅  LangChain & LangGraph
+[██████████] ✅  Vector Databases (ChromaDB, FAISS, Qdrant local)
+[██████████] ✅  MCP Server Development (FastMCP + Node SDK)
+[████████░░] 🔄  Agentic AI & Multi-Agent Systems
+[███████░░░] 🔄  LLM Evaluation (RAGAS, DeepEval — both free)
+[█████░░░░░] 📖  GraphRAG & Knowledge Graphs
+[████░░░░░░] 📖  LoRA / QLoRA Fine-tuning (Google Colab free GPU)
+[███░░░░░░░] 📖  LLMOps & Observability (Langfuse free tier)
+```
+
+---
+
+## 💡 My Build Philosophy
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
+| Principle | How I Apply It |
+|-----------|---------------|
+| 🆓 **Zero Cost** | Every project runs on free-tier APIs + fully local open-source tools |
+| 🖥️ **Low Hardware** | Optimized for i5 CPU + 8GB RAM — no GPU, no expensive cloud |
+| 🔓 **Open Source First** | sentence-transformers · ChromaDB · FAISS · FastMCP · LangChain |
+| 🚀 **Production Ready** | CI/CD · observability · error handling — not just notebook demos |
+| 📦 **Reproducible** | `requirements.txt` + `.env.example` + full setup docs in every repo |
 
 </div>
-
----
-
-## 🎯 2025–26 Roadmap
-
-```
-[██████████] ✅  RAG Pipelines (Basic → Advanced)
-[██████████] ✅  LangChain & LangGraph
-[██████████] ✅  Vector Databases (Pinecone, ChromaDB, FAISS)
-[██████████] ✅  MCP Server Development
-[████████░░] 🔄  Agentic AI Systems (Multi-Agent)
-[███████░░░] 🔄  LLM Fine-tuning (LoRA / QLoRA)
-[█████░░░░░] 📖  GraphRAG & Knowledge Graphs
-[████░░░░░░] 📖  LLM Observability & LLMOps
-[███░░░░░░░] 📖  Kubernetes for AI workloads
-```
 
 ---
 
