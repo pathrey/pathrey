@@ -27,9 +27,9 @@
 ```python
 class AIEngineer:
     def __init__(self):
-        self.name         = "Your Name"
+        self.name         = "Tushar"
         self.role         = "AI Engineer & Full-Stack Developer"
-        self.location     = "Remote 🌍"
+        self.location     = "INDIA"
         self.focus        = ["Production RAG Systems", "Agentic AI", "MCP Servers"]
         self.philosophy   = "100% open-source · zero paid APIs · runs on any laptop"
         self.stack        = {
